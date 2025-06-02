@@ -102,7 +102,7 @@ def main():
             if humidity is not None and temperature is not None:
                 print(f"Température : {temperature}°C | Humidité : {humidity}%")
             else:
-                print("⚠️ Erreur de lecture DHT11.")
+                print("Erreur de lecture DHT11.")
 
             if pm25 is not None and pm10 is not None:
                 print(f" PM2.5 : {pm25} µg/m3 | PM10 : {pm10} µg/m3")
